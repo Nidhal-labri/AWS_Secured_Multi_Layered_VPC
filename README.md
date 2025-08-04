@@ -65,7 +65,7 @@ Created a security group named `my_securitygroup` with the following **inbound r
 | SSH                | TCP      | 22         | 0.0.0.0/0   |
 | All ICMP - IPv4    | ICMP     | ALL        | 0.0.0.0/0   |
 
-*(Add security group image here)*
+<img width="1641" height="623" alt="image" src="https://github.com/user-attachments/assets/947214a5-27b5-46c2-a5d9-2ef7695c7429" />
 
 ### ✅ Step 6 – Creating & Configuring Network ACL
 
@@ -101,8 +101,8 @@ Launched **two t2.micro instances** using **Amazon Linux 2 AMI** inside `my_VPC`
   - Auto-assign Public IP: Disabled
   
 🔐 **Note:** I also created and associated a key pair named `myKey.pem` for SSH access.
+<img width="1919" height="305" alt="14" src="https://github.com/user-attachments/assets/7c04c0e7-fada-43db-9155-36a040cebb63" />
 
-<img width="1919" height="305" alt="14" src="https://github.com/user-attachments/assets/36d9269a-7af0-4b02-ba2b-19823492f135" />
 
 
 ### ✅ Step 8 – Testing Connectivity
