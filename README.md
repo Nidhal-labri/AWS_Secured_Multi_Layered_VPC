@@ -53,7 +53,7 @@ Created two subnets in `my_VPC`:
     - Route: `0.0.0.0/0` → Target: `my_IGW`
   - `private_route` associated with `private_subnet`
 
-🗺️ *VPC Resource Map*  
+🗺️ **VPC Resource Map***  
 <img width="1646" height="355" alt="13" src="https://github.com/user-attachments/assets/7ba9d64d-ce87-4583-904f-79e1793ba2bf" />
 
 ### ✅ Step 5 – Creating a Security Group
