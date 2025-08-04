@@ -99,8 +99,8 @@ Launched **two t2.micro instances** using **Amazon Linux 2 AMI** inside `my_VPC`
 - `private_instance`:
   - Subnet: `private_subnet`
   - Auto-assign Public IP: Disabled
-  - 
-🔐 Created and associated a key pair named `myKey.pem` for SSH access.
+  
+🔐 **Note:** I also created and associated a key pair named `myKey.pem` for SSH access.
 
 <img width="1919" height="305" alt="14" src="https://github.com/user-attachments/assets/36d9269a-7af0-4b02-ba2b-19823492f135" />
 
