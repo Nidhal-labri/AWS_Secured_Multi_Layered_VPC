@@ -31,14 +31,10 @@ Created a VPC named `my_VPC` with:
 - IPv4 CIDR block: `10.0.0.0/16`
 - No IPv6 CIDR block
 
----
-
 ### ✅ Step 2 – Attaching an Internet Gateway
 
 - Created an Internet Gateway named `my_IGW`
 - Attached it to `my_VPC`
-
----
 
 ### ✅ Step 3 – Creating Two Subnets
 
@@ -50,8 +46,6 @@ Created two subnets in `my_VPC`:
   - CIDR block: `10.0.2.0/24`  
   - Availability Zone: No preference  
 
----
-
 ### ✅ Step 4 – Route Tables & Routes
 
 - Created two route tables:
@@ -61,8 +55,6 @@ Created two subnets in `my_VPC`:
 
 🗺️ *VPC Resource Map*  
 <img width="1646" height="355" alt="13" src="https://github.com/user-attachments/assets/7ba9d64d-ce87-4583-904f-79e1793ba2bf" />
-
----
 
 ### ✅ Step 5 – Creating a Security Group
 
@@ -74,8 +66,6 @@ Created a security group named `my_securitygroup` with the following **inbound r
 | All ICMP - IPv4    | ICMP     | ALL        | 0.0.0.0/0   |
 
 *(Add security group image here)*
-
----
 
 ### ✅ Step 6 – Creating & Configuring Network ACL
 
@@ -97,7 +87,6 @@ Created a Network ACL named `my_NACL` with the following rules:
 
 - Associated `my_NACL` with both `public_subnet` and `private_subnet`
 
----
 
 ### ✅ Step 7 – Launching EC2 Instances
 
@@ -115,7 +104,6 @@ Launched **two t2.micro instances** using **Amazon Linux 2 AMI** inside `my_VPC`
 
 <img width="1919" height="305" alt="14" src="https://github.com/user-attachments/assets/36d9269a-7af0-4b02-ba2b-19823492f135" />
 
----
 
 ### ✅ Step 8 – Testing Connectivity
 
