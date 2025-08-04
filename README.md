@@ -107,17 +107,21 @@ Launched **two t2.micro instances** using **Amazon Linux 2 AMI** inside `my_VPC`
 
 ### ✅ Step 8 – Testing Connectivity
 
-1. Connected to `public_instance` using EC2 Instance Connect  
-<img width="1919" height="824" alt="8" src="https://github.com/user-attachments/assets/f0bb8552-9216-482f-a0aa-d08a42701abf" />
+1. **Connected to `public_instance`** using EC2 Instance Connect  
+   <img width="1919" height="824" alt="EC2 Connect" src="https://github.com/user-attachments/assets/f0bb8552-9216-482f-a0aa-d08a42701abf" />
 
-2. From the public instance, tested:
-   - **Connectivity to `private_instance`** ( `ping 10.0.2.128 -c 5`)
-<img width="1129" height="302" alt="image" src="https://github.com/user-attachments/assets/7bc6a69b-ce68-4ded-a4f8-0abd868198ee" />
+2. From the `public_instance`, the following tests were performed:
 
-   -**Connectivity to the internet** ( `ping google.com -c 5`)
-<img width="806" height="192" alt="10" src="https://github.com/user-attachments/assets/9cdbadc8-870f-4062-b9ba-5ee134a24899" />
+   - **Connectivity to `private_instance`** using:  
+     `ping 10.0.2.128 -c 5`  
+     <img width="1129" height="302" alt="Private Ping" src="https://github.com/user-attachments/assets/7bc6a69b-ce68-4ded-a4f8-0abd868198ee" />
 
-✅ Successful connectivity confirms that the network architecture, routing, and security configurations are working as intended.
+   - **Connectivity to the internet** using:  
+     `ping google.com -c 5`  
+     <img width="806" height="192" alt="Internet Ping" src="https://github.com/user-attachments/assets/9cdbadc8-870f-4062-b9ba-5ee134a24899" />
+
+✅ **Successful connectivity confirms that the network architecture, routing, and security configurations are working as intended.**
+
 
 
 ---
