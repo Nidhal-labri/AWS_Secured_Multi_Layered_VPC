@@ -3,6 +3,11 @@
 This project demonstrates how I deployed a **secured multi-layered VPC on AWS** using **Network ACLs (NACLs)** and **Security Groups** to implement layered security for public and private resources.
 
 ---
+## 🌐 Why This Project?
+
+This project was designed to deepen my hands-on understanding of AWS networking by building a secured, multi-layered VPC from scratch. By isolating resources into public and private subnets and configuring both stateful and stateless firewalls, I implemented layered security following best practices. The project also simulated real-world scenarios like secure SSH access, internal EC2 communication, and controlled internet connectivity—skills that are essential for cloud architecture, DevOps, and cloud security roles.
+
+---
 
 ## 🗺️ Architecture Diagram
 
