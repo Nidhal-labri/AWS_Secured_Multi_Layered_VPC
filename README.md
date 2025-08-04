@@ -111,9 +111,11 @@ Launched **two t2.micro instances** using **Amazon Linux 2 AMI** inside `my_VPC`
 <img width="1919" height="824" alt="8" src="https://github.com/user-attachments/assets/f0bb8552-9216-482f-a0aa-d08a42701abf" />
 
 2. From the public instance, tested:
-   - **Connectivity to `private_instance`** ( `ping 10.0.2.128 -c 5`)  
+   - **Connectivity to `private_instance`** ( `ping 10.0.2.128 -c 5`)
+     
 <img width="1129" height="302" alt="image" src="https://github.com/user-attachments/assets/7bc6a69b-ce68-4ded-a4f8-0abd868198ee" />
-   - **Connectivity to the internet** ( `ping google.com -c 5`)  
+   - **Connectivity to the internet** ( `ping google.com -c 5`)
+
 <img width="806" height="192" alt="10" src="https://github.com/user-attachments/assets/9cdbadc8-870f-4062-b9ba-5ee134a24899" />
 
 ---
@@ -122,11 +124,3 @@ Launched **two t2.micro instances** using **Amazon Linux 2 AMI** inside `my_VPC`
 
 Made with 💻 by **Nidhal Labri**  
 🔗 [LinkedIn](https://www.linkedin.com/in/nidhal-labri/)
-
----
-## 🧠 Contributions  
-Contributions, corrections, and improvements are welcome.  
-Feel free to open a pull request or create an issue!
-
----
-**Made with 💻 by Nidhal** | **[LinkedIn](https://www.linkedin.com/in/nidhal-labri/)**
