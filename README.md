@@ -112,11 +112,9 @@ Launched **two t2.micro instances** using **Amazon Linux 2 AMI** inside `my_VPC`
 
 2. From the public instance, tested:
    - **Connectivity to `private_instance`** ( `ping 10.0.2.128 -c 5`)
-     
 <img width="1129" height="302" alt="image" src="https://github.com/user-attachments/assets/7bc6a69b-ce68-4ded-a4f8-0abd868198ee" />
 
-   - **Connectivity to the internet** ( `ping google.com -c 5`)
-
+   -**Connectivity to the internet** ( `ping google.com -c 5`)
 <img width="806" height="192" alt="10" src="https://github.com/user-attachments/assets/9cdbadc8-870f-4062-b9ba-5ee134a24899" />
 
 ✅ Successful connectivity confirms that the network architecture, routing, and security configurations are working as intended.
