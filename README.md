@@ -11,7 +11,7 @@ This project was designed to deepen my hands-on understanding of AWS networking 
 
 ## 🗺️ Architecture Diagram
 
-<img width="4071" height="2106" alt="image" src="https://github.com/user-attachments/assets/cb821e94-9438-4d23-a5bb-266e47986fd4" />
+<img width="1920" height="1080" alt="architecture" src="https://github.com/user-attachments/assets/4369a217-8ef9-4b33-9175-845ffe8d8900" />
 
 ---
 
